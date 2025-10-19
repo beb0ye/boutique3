@@ -381,41 +381,57 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "1. Est-ce que le pommeau s’adapte à toutes les douches ?",
+            "content": "<p><strong>Oui, absolument.</strong><br/><br/>Notre pommeau est <strong>universel</strong> et se visse sur <strong>tous les flexibles standards</strong>, sans outils ni installation complexe. Tu le remplaces en moins d’une minute.<br/><br/></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "2. Le filtre a une durée de vie de combien de temps ?",
+            "content": "<p>En moyenne <strong>2 à 3 mois</strong>, selon la qualité de ton eau et ta fréquence d’utilisation.<br/><br/>Un filtre usé devient plus foncé — c’est le signe qu’il a bien capté les impuretés.<br/><br/>👉 Il suffit alors de le remplacer (en quelques secondes).<br/><br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "3. Quels bienfaits vais-je ressentir ?",
+            "content": "<p>Dès les premières douches, tu remarqueras une <strong>eau plus douce</strong>, une <strong>peau moins sèche</strong> et des <strong>cheveux plus brillants</strong>.<br/><br/>Le filtre élimine le <strong>chlore</strong>, le <strong>calcaire</strong> et les <strong>métaux lourds</strong> responsables des irritations cutanées et des cheveux ternes.<br/><br/></p>"
+          }
+        },
+        "item_U47YQU": {
+          "type": "item",
+          "settings": {
+            "title": "4. Le débit d’eau est-il réduit ?",
+            "content": "<p>Au contraire 💨<br/><br/>Grâce à ses <strong>micro-perforations à haute pression</strong>, le pommeau <strong>économise jusqu’à 30 % d’eau</strong> tout en offrant un <strong>jet plus puissant et agréable</strong>.<br/><br/></p>"
+          }
+        },
+        "item_xaGbFF": {
+          "type": "item",
+          "settings": {
+            "title": "5. Puis-je le tester sans risque ?",
+            "content": "<p>Bien sûr.<br/><br/>Tu bénéficies de notre <strong>garantie satisfait ou remboursé 30 jours</strong>.<br/><br/>Essaye-le chez toi, et si tu n’es pas conquis(e), on te rembourse <strong>sans discussion</strong>.<br/><br/></p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_U47YQU",
+        "item_xaGbFF"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
