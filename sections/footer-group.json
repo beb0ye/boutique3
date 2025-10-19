@@ -92,8 +92,8 @@
           "type": "newsletter",
           "settings": {
             "image_width": 150,
-            "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "heading_size": "h4",
+            "title": "Inscrivez-vous pour recevoir toutes nos offres et actualité.",
             "content": ""
           }
         },
@@ -102,14 +102,14 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
-            "menu_title": ""
+            "menu_title": "Liens"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Nous contacter :",
+            "content": "<p><strong>Service client</strong> : contact@viserro.com</p><p></p><p><strong>Horaire</strong> : Du Lun au Ven de 9h à 17h / Sam et Dim de 10h à 12h</p>",
             "enable_follow_on_shop": true
           }
         }
