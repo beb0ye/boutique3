@@ -375,6 +375,32 @@
         "text_color": ""
       }
     },
+    "rich_text_fCXt7X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QfKJPy": {
+          "type": "heading",
+          "settings": {
+            "text": "Avis de nos clients",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QfKJPy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "1760914524116522eb": {
       "type": "apps",
       "blocks": {
@@ -489,6 +515,7 @@
     "images_with_text_scrolling_bbFydi",
     "featured_product_8zHFME",
     "custom_liquid_AwYyWe",
+    "rich_text_fCXt7X",
     "1760914524116522eb",
     "faq"
   ]
