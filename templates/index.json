@@ -226,24 +226,10 @@
     "featured_product_8zHFME": {
       "type": "featured-product",
       "blocks": {
-        "vendor_zC6DyC": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_QQ4JRn": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
-          }
-        },
-        "badges_Ri9eeW": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_Tp6LVe": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
           }
         },
         "kaching_bundles_app_block_taqGmy": {
@@ -251,39 +237,6 @@
           "settings": {
             "product": "{{section.settings.product}}"
           }
-        },
-        "rating_KMJnJh": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_AEPx9J": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_D9p8UH": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_yYnLVq": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_bVARnw": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons_DDk93H": {
           "type": "buy_buttons",
@@ -295,10 +248,6 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "pickup_availability_jNxjMA": {
-          "type": "pickup_availability",
-          "settings": {}
         },
         "collapsible_text_R3gGQT": {
           "type": "collapsible_text",
@@ -312,18 +261,9 @@
         }
       },
       "block_order": [
-        "vendor_zC6DyC",
         "title_QQ4JRn",
-        "badges_Ri9eeW",
-        "price_Tp6LVe",
         "kaching_bundles_app_block_taqGmy",
-        "rating_KMJnJh",
-        "separator_AEPx9J",
-        "description_D9p8UH",
-        "variant_picker_yYnLVq",
-        "quantity_selector_bVARnw",
         "buy_buttons_DDk93H",
-        "pickup_availability_jNxjMA",
         "collapsible_text_R3gGQT"
       ],
       "name": "Featured product",
