@@ -112,10 +112,13 @@
     "rich_text_PWPftL": {
       "type": "rich-text",
       "blocks": {
-        "subheading_Y7Lxmk": {
-          "type": "subheading",
+        "heading_kVpLpz": {
+          "type": "heading",
           "settings": {
-            "text": "Les 6 raisons d’adopter Viserro™"
+            "text": "Les 6 raisons d’adopter Viserro™",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
           }
         },
         "image_T4a7KM": {
@@ -129,7 +132,7 @@
         }
       },
       "block_order": [
-        "subheading_Y7Lxmk",
+        "heading_kVpLpz",
         "image_T4a7KM"
       ],
       "name": "Rich text",
@@ -140,6 +143,81 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "before_after_image_9ykV6J": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Ce que ton œil voit, ton corps le ressent.",
+        "content": "<p>Le filtre <strong>Viserro™</strong> capture ce que l’eau du robinet laisse passer. Une eau plus pure, une peau plus douce.</p>",
+        "before_image": "shopify://shop_images/PURIFIEZ_2.png",
+        "after_image": "shopify://shop_images/PURIFIEZ_3.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 49,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#1a1a1a",
+        "after_text_color": "#1a1a1a",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "images_with_text_scrolling_bbFydi": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_7derVh": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_qnQ4BM": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_iMcbKH": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_7derVh",
+        "item_qnQ4BM",
+        "item_iMcbKH"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "fade",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "scrolling-text": {
@@ -754,6 +832,8 @@
     "slideshow",
     "logo_list_XbU9TD",
     "rich_text_PWPftL",
+    "before_after_image_9ykV6J",
+    "images_with_text_scrolling_bbFydi",
     "scrolling-text",
     "collection-list",
     "featured-collection",
