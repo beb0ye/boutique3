@@ -304,6 +304,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_AwYyWe": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- COMPARATIF – Viserro™ vs Pommeau classique (sans images) -->\n<section class=\"why-viserro\" aria-label=\"Pourquoi choisir Viserro\">\n  <h3 class=\"wv-title\">Pourquoi choisir <span>Viserro™ </span> ?</h3>\n\n  <!-- En-tête colonnes -->\n  <div class=\"wv-head\">\n    <div class=\"wv-spacer\"></div>\n    <div class=\"wv-col wv-col--brand\">Viserro™</div>\n    <div class=\"wv-col wv-col--std\">Classique</div>\n  </div>\n\n  <div class=\"wv-cards\">\n    <!-- Ligne -->\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Filtration anti-calcaire & métaux lourds</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Peau apaisée & cheveux plus doux</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Installation universelle en 1 minute</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Économie d’eau jusqu’à 40%</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Résultats visibles sur le filtre</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Design premium & durable</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n  </div>\n</section>\n\n<style>\n/* ===== Palette alignée à ton site ===== */\n.why-viserro{\n  --bg:#FFFFFF;\n  --card:#FFFFFF;\n  --line:#E5EDF3;\n  --ring:#C7D3DD;\n  --text:#1A1A1A;\n  --muted:#4B4B4B;\n  --accent:#2C7CBF; /* bleu marque */\n  --ok:#16A34A;\n  --no:#DC2626;\n\n  background:var(--bg);\n  border:1px solid var(--line);\n  border-radius:16px;\n  padding:16px 12px;\n  margin:18px 0;\n  box-shadow:0 6px 18px rgba(0,0,0,.04);\n  font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif;\n  color:var(--text);\n}\n\n/* Titre */\n.wv-title{\n  margin:0 0 10px;\n  font-weight:800;\n  font-size:clamp(18px,4.2vw,22px);\n}\n.wv-title span{ color:var(--accent); }\n\n/* En-tête colonnes */\n.wv-head{\n  display:grid;\n  grid-template-columns: 1fr 80px 80px;\n  align-items:center;\n  gap:8px;\n  margin-bottom:8px;\n  padding:6px 10px;\n  background:linear-gradient(180deg,#F5F7FA, #EFF5FA);\n  border:1px solid var(--ring);\n  border-radius:10px;\n  font-weight:700;\n  font-size:12px;\n  color:var(--muted);\n}\n.wv-col--brand{ text-align:center; color:var(--text); }\n.wv-col--std{ text-align:center; }\n\n/* Lignes */\n.wv-cards{ display:grid; gap:10px; }\n.wv-row{\n  display:grid;\n  grid-template-columns: 1fr 80px 80px;\n  align-items:center;\n  gap:8px;\n  background:var(--card);\n  border:1px solid var(--line);\n  border-radius:12px;\n  padding:12px 10px;\n  box-shadow:0 4px 12px rgba(0,0,0,.04);\n}\n.wv-feature{ font-weight:700; font-size:14px; }\n.wv-col{ display:flex; justify-content:center; }\n\n/* Badges check/cross */\n.wv-badge{\n  display:inline-grid; place-items:center;\n  width:26px; height:26px; border-radius:8px;\n  font-weight:900; font-size:13px; color:#fff;\n  box-shadow:0 2px 6px rgba(0,0,0,.08);\n}\n.wv-ok{ background:var(--ok); }\n.wv-no{ background:var(--no); }\n\n/* Desktop : colonnes plus larges */\n@media (min-width: 768px){\n  .why-viserro{ padding:22px 18px; }\n  .wv-head, .wv-row{ grid-template-columns: 1fr 120px 120px; }\n  .wv-feature{ font-size:15px; }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -355,19 +368,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "custom_liquid_AwYyWe": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!-- COMPARATIF – Viserro™ vs Pommeau classique (sans images) -->\n<section class=\"why-viserro\" aria-label=\"Pourquoi choisir Viserro\">\n  <h3 class=\"wv-title\">Pourquoi choisir <span>Viserro™ AquaPure</span> ?</h3>\n\n  <!-- En-tête colonnes -->\n  <div class=\"wv-head\">\n    <div class=\"wv-spacer\"></div>\n    <div class=\"wv-col wv-col--brand\">Viserro™</div>\n    <div class=\"wv-col wv-col--std\">Classique</div>\n  </div>\n\n  <div class=\"wv-cards\">\n    <!-- Ligne -->\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Filtration anti-calcaire & métaux lourds</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Peau apaisée & cheveux plus doux</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Installation universelle en 1 minute</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Économie d’eau jusqu’à 40%</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Résultats visibles sur le filtre</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n\n    <article class=\"wv-row\">\n      <div class=\"wv-feature\">Design premium & durable</div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-ok\">✓</span></div>\n      <div class=\"wv-col\"><span class=\"wv-badge wv-no\">✗</span></div>\n    </article>\n  </div>\n</section>\n\n<style>\n/* ===== Palette alignée à ton site ===== */\n.why-viserro{\n  --bg:#FFFFFF;\n  --card:#FFFFFF;\n  --line:#E5EDF3;\n  --ring:#C7D3DD;\n  --text:#1A1A1A;\n  --muted:#4B4B4B;\n  --accent:#2C7CBF; /* bleu marque */\n  --ok:#16A34A;\n  --no:#DC2626;\n\n  background:var(--bg);\n  border:1px solid var(--line);\n  border-radius:16px;\n  padding:16px 12px;\n  margin:18px 0;\n  box-shadow:0 6px 18px rgba(0,0,0,.04);\n  font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif;\n  color:var(--text);\n}\n\n/* Titre */\n.wv-title{\n  margin:0 0 10px;\n  font-weight:800;\n  font-size:clamp(18px,4.2vw,22px);\n}\n.wv-title span{ color:var(--accent); }\n\n/* En-tête colonnes */\n.wv-head{\n  display:grid;\n  grid-template-columns: 1fr 80px 80px;\n  align-items:center;\n  gap:8px;\n  margin-bottom:8px;\n  padding:6px 10px;\n  background:linear-gradient(180deg,#F5F7FA, #EFF5FA);\n  border:1px solid var(--ring);\n  border-radius:10px;\n  font-weight:700;\n  font-size:12px;\n  color:var(--muted);\n}\n.wv-col--brand{ text-align:center; color:var(--text); }\n.wv-col--std{ text-align:center; }\n\n/* Lignes */\n.wv-cards{ display:grid; gap:10px; }\n.wv-row{\n  display:grid;\n  grid-template-columns: 1fr 80px 80px;\n  align-items:center;\n  gap:8px;\n  background:var(--card);\n  border:1px solid var(--line);\n  border-radius:12px;\n  padding:12px 10px;\n  box-shadow:0 4px 12px rgba(0,0,0,.04);\n}\n.wv-feature{ font-weight:700; font-size:14px; }\n.wv-col{ display:flex; justify-content:center; }\n\n/* Badges check/cross */\n.wv-badge{\n  display:inline-grid; place-items:center;\n  width:26px; height:26px; border-radius:8px;\n  font-weight:900; font-size:13px; color:#fff;\n  box-shadow:0 2px 6px rgba(0,0,0,.08);\n}\n.wv-ok{ background:var(--ok); }\n.wv-no{ background:var(--no); }\n\n/* Desktop : colonnes plus larges */\n@media (min-width: 768px){\n  .why-viserro{ padding:22px 18px; }\n  .wv-head, .wv-row{ grid-template-columns: 1fr 120px 120px; }\n  .wv-feature{ font-size:15px; }\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -377,7 +377,7 @@
     "before_after_image_9ykV6J",
     "images_with_text_scrolling_bbFydi",
     "featured_product_8zHFME",
-    "faq",
-    "custom_liquid_AwYyWe"
+    "custom_liquid_AwYyWe",
+    "faq"
   ]
 }
