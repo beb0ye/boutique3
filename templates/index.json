@@ -375,32 +375,6 @@
         "text_color": ""
       }
     },
-    "rich_text_PQdFLd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Vi9AEf": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_Vi9AEf"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "1760914524116522eb": {
       "type": "apps",
       "blocks": {
@@ -515,7 +489,6 @@
     "images_with_text_scrolling_bbFydi",
     "featured_product_8zHFME",
     "custom_liquid_AwYyWe",
-    "rich_text_PQdFLd",
     "1760914524116522eb",
     "faq"
   ]
