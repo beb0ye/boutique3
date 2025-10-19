@@ -432,7 +432,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
