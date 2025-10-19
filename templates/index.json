@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PURIFIEZ.png",
+            "image": "shopify://shop_images/PURIFIEZ_1.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -50,81 +50,63 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
+    "logo_list_XbU9TD": {
+      "type": "logo-list",
       "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
+        "logo_TdHLRg": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/download_d9f77a72-150c-4bdc-8764-8be9f801fb0d.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo": "shopify://shop_images/download_d9f77a72-150c-4bdc-8764-8be9f801fb0d.png",
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "1664424046b00c932c-1": {
-          "type": "item",
+        "logo_ktPqra": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/download.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo": "shopify://shop_images/images.png",
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "1664424046b00c932c-2": {
-          "type": "item",
+        "logo_aQpG4d": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/images.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo": "shopify://shop_images/download_ad2f83e1-9102-4564-b14c-f0bef7f765a5.png",
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "1664424046b00c932c-3": {
-          "type": "item",
+        "logo_TQHmtW": {
+          "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/download_ad2f83e1-9102-4564-b14c-f0bef7f765a5.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "logo": "shopify://shop_images/Vogue-logo.png",
+            "logo_width": 120,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3"
+        "logo_TdHLRg",
+        "logo_ktPqra",
+        "logo_aQpG4d",
+        "logo_TQHmtW"
       ],
+      "name": "Logo list",
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "Vu sur :",
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Ils parlent de nous :",
         "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#f0f0f0",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": ""
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
       }
     },
     "rich_text_PWPftL": {
@@ -133,7 +115,7 @@
         "subheading_Y7Lxmk": {
           "type": "subheading",
           "settings": {
-            "text": "Les 6 raisons d’adopter AquaPure™"
+            "text": "Les 6 raisons d’adopter Viserro™"
           }
         },
         "image_T4a7KM": {
@@ -770,7 +752,7 @@
   },
   "order": [
     "slideshow",
-    "image-link-blocks",
+    "logo_list_XbU9TD",
     "rich_text_PWPftL",
     "scrolling-text",
     "collection-list",
