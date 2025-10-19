@@ -176,28 +176,31 @@
         "item_7derVh": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/viserro_filtre_demo.gif",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "L’installation. Simple, rapide, élégante.",
+            "content": "<p>En quelques secondes, <strong>Viserro™</strong> s’installe sur n’importe quel pommeau de douche.</p><p>Son design épuré et sa conception intelligente en font bien plus qu’un simple accessoire :<br/><br/>c’est une <strong>barrière invisible</strong> entre votre peau et les impuretés de l’eau.</p><p>Aucune compétence technique, aucun outil.<br/><br/>Vous vissez, vous enclenchez, et le soin commence.</p>"
           }
         },
         "item_qnQ4BM": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/viserro_filtre_demo_2.gif",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "La purification.  L’eau retrouve sa pureté naturelle.",
+            "content": "<p>À chaque goutte, le système <strong>Viserro™</strong> entre en action.</p><p>Le filtre multi-couches retient le <strong>calcaire, le chlore, les métaux lourds et les particules invisibles</strong>,<br/><br/>pour ne laisser passer qu’une eau <strong>douce, claire et respectueuse de votre peau</strong>.</p><p>Résultat : une sensation immédiate de fraîcheur et de confort,<br/><br/>comme une douche d’eau de source à la maison.</p>"
           }
         },
         "item_iMcbKH": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/viserro_filtre_demo_3_simple.gif",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "Le résultat. La preuve est dans le filtre.",
+            "content": "<p>Après quelques semaines d’utilisation, le filtre parle de lui-même.</p><p>Ce brun profond, c’est tout ce que <strong>vous ne respirez plus</strong><br/><br/>et que votre peau ne subit plus.</p><p>Là où avant se trouvaient impuretés et métaux lourds,<br/><br/>il ne reste désormais qu’une eau propre, bienfaisante et saine.</p><p>Votre peau retrouve sa douceur. Vos cheveux, leur éclat.</p>"
           }
         }
       },
@@ -220,19 +223,108 @@
         "heading_gradient": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
+    "featured_product_8zHFME": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_zC6DyC": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_QQ4JRn": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_Ri9eeW": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_Tp6LVe": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_KMJnJh": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_AEPx9J": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D9p8UH": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_yYnLVq": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_bVARnw": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_DDk93H": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_jNxjMA": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_zC6DyC",
+        "title_QQ4JRn",
+        "badges_Ri9eeW",
+        "price_Tp6LVe",
+        "rating_KMJnJh",
+        "separator_AEPx9J",
+        "description_D9p8UH",
+        "variant_picker_yYnLVq",
+        "quantity_selector_bVARnw",
+        "buy_buttons_DDk93H",
+        "pickup_availability_jNxjMA"
+      ],
+      "name": "Featured product",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
+        "product": "",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "text_gradient": ""
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "collection-list": {
@@ -834,7 +926,7 @@
     "rich_text_PWPftL",
     "before_after_image_9ykV6J",
     "images_with_text_scrolling_bbFydi",
-    "scrolling-text",
+    "featured_product_8zHFME",
     "collection-list",
     "featured-collection",
     "impact-text",
