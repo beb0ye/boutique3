@@ -246,6 +246,12 @@
             "show_taxes_notice": false
           }
         },
+        "kaching_bundles_app_block_taqGmy": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "rating_KMJnJh": {
           "type": "rating",
           "settings": {
@@ -310,6 +316,7 @@
         "title_QQ4JRn",
         "badges_Ri9eeW",
         "price_Tp6LVe",
+        "kaching_bundles_app_block_taqGmy",
         "rating_KMJnJh",
         "separator_AEPx9J",
         "description_D9p8UH",
