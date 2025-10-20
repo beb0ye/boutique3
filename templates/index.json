@@ -177,31 +177,6 @@
         "text_color": ""
       }
     },
-    "before_after_image_9ykV6J": {
-      "type": "before-after-image",
-      "name": "Before/after image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Ce que ton œil voit, ton corps le ressent.",
-        "content": "<p>Le filtre <strong>Viserro™</strong> capture ce que l’eau du robinet laisse passer. Une eau plus pure, une peau plus douce.</p>",
-        "before_image": "shopify://shop_images/PURIFIEZ_2.png",
-        "after_image": "shopify://shop_images/PURIFIEZ_3.png",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 49,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#1a1a1a",
-        "after_text_color": "#1a1a1a",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "images_with_text_scrolling_bbFydi": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -394,6 +369,31 @@
         "input_text_color": ""
       }
     },
+    "before_after_image_9ykV6J": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Ce que ton œil voit, ton corps le ressent.",
+        "content": "<p>Le filtre <strong>Viserro™</strong> capture ce que l’eau du robinet laisse passer. Une eau plus pure, une peau plus douce.</p>",
+        "before_image": "shopify://shop_images/PURIFIEZ_2.png",
+        "after_image": "shopify://shop_images/PURIFIEZ_3.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 49,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#1a1a1a",
+        "after_text_color": "#1a1a1a",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "custom_liquid_AwYyWe": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -564,9 +564,9 @@
     "slideshow",
     "scrolling_image_CczyKd",
     "rich_text_PWPftL",
-    "before_after_image_9ykV6J",
     "images_with_text_scrolling_bbFydi",
     "featured_product_8zHFME",
+    "before_after_image_9ykV6J",
     "custom_liquid_AwYyWe",
     "rich_text_fCXt7X",
     "1760914524116522eb",
