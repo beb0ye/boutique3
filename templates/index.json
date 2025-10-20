@@ -213,6 +213,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_DpbxHD": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"viserro-steps\" aria-label=\"3 étapes d’utilisation de Viserro\">\n  <div class=\"vs-head\">\n    <h2 class=\"vs-title\">Utiliser Viserro en 3 étapes</h2>\n    <p class=\"vs-sub\">Installez. Purifiez. Profitez d’une eau douce pour la peau et les cheveux.</p>\n  </div>\n\n  <!-- Piste horizontale (gauche ➜ droite) -->\n  <div class=\"vs-track\" role=\"list\">\n    <!-- Étape 1 -->\n    <article class=\"vs-card\" role=\"listitem\" aria-label=\"Étape 1\">\n      <div class=\"vs-img\">\n        <img src=\"{{ 'step1.webp' | file_url }}\" alt=\"Étape 1 — Installer Viserro\" loading=\"lazy\">\n      </div>\n      <div class=\"vs-txt\">\n        <h3><span>1</span> Vissez en 1 minute</h3>\n        <p>Dévissez l’ancien pommeau et vissez <strong>Viserro</strong> : pas d’outil, pas de prise de tête. Universel (G1/2).</p>\n      </div>\n    </article>\n\n    <!-- Étape 2 -->\n    <article class=\"vs-card\" role=\"listitem\" aria-label=\"Étape 2\">\n      <div class=\"vs-img\">\n        <img src=\"{{ 'step2.webp' | file_url }}\" alt=\"Étape 2 — Filtration active\" loading=\"lazy\">\n      </div>\n      <div class=\"vs-txt\">\n        <h3><span>2</span> Filtration active</h3>\n        <p>L’eau traverse le filtre et retient <strong>calcaire, chlore et impuretés</strong> pour une eau plus douce et respectueuse.</p>\n      </div>\n    </article>\n\n    <!-- Étape 3 -->\n    <article class=\"vs-card\" role=\"listitem\" aria-label=\"Étape 3\">\n      <div class=\"vs-img\">\n        <img src=\"{{ 'step3.webp' | file_url }}\" alt=\"Étape 3 — Profitez d’une eau douce\" loading=\"lazy\">\n      </div>\n      <div class=\"vs-txt\">\n        <h3><span>3</span> Profitez au quotidien</h3>\n        <p>Sensation immédiate : <strong>peau apaisée</strong>, <strong>cheveux plus brillants</strong>, moins de dépôts sur les parois.</p>\n      </div>\n    </article>\n  </div>\n</section>\n\n<style>\n.viserro-steps{\n  background: #F5F7FA;\n  color:#1A1A1A;\n  padding: 40px 0;\n  font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif;\n}\n.vs-head{ max-width:1200px; margin:0 auto 14px; padding:0 16px; text-align:left; }\n.vs-title{\n  font-weight:800; letter-spacing:-.3px;\n  font-size:clamp(1.6rem,3vw,2.2rem); margin:0 0 6px;\n}\n.vs-sub{ margin:0; color:#4B4B4B; font-size:clamp(.95rem,1.5vw,1.05rem); }\n\n/* Piste horizontale gauche->droite */\n.vs-track{\n  display:flex; gap:16px;\n  overflow-x:auto; overflow-y:hidden;\n  scroll-snap-type:x mandatory;\n  -webkit-overflow-scrolling: touch;\n  padding: 10px 16px 4px;\n  max-width:1200px; margin:0 auto;\n}\n.vs-track::-webkit-scrollbar{ height:8px; }\n.vs-track::-webkit-scrollbar-thumb{ background:#C7D3DD; border-radius:999px; }\n.vs-track::-webkit-scrollbar-track{ background:transparent; }\n\n.vs-card{\n  flex: 0 0 clamp(280px, 32vw, 380px);  /* largeur carte */\n  background:#FFFFFF; border:1px solid #E5EDF3; border-radius:16px;\n  box-shadow:0 8px 20px rgba(0,0,0,.05);\n  overflow:hidden; scroll-snap-align:center;\n  transition: transform .25s ease, box-shadow .25s ease;\n}\n.vs-card:hover{ transform: translateY(-4px); box-shadow:0 12px 28px rgba(0,0,0,.08); }\n\n.vs-img img{\n  width:100%; height:auto; display:block; object-fit:cover; aspect-ratio:4/3;\n  background:#EEF3F7;\n}\n\n.vs-txt{ padding:14px 14px 18px; }\n.vs-txt h3{\n  display:flex; align-items:center; gap:8px;\n  font-size:1.05rem; margin:0 0 6px; font-weight:800;\n}\n.vs-txt h3 span{\n  display:inline-grid; place-items:center; width:28px; height:28px;\n  border-radius:999px; font-weight:900; font-size:.95rem; color:#fff;\n  background:#2C7CBF; box-shadow:0 2px 6px rgba(0,0,0,.06);\n}\n.vs-txt p{ margin:0; color:#444; line-height:1.5; font-size:.98rem; }\n\n/* Desktop: montrer les 3 cartes sans scroll si assez d'espace */\n@media (min-width: 1100px){\n  .vs-track{ overflow-x:visible; }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "images_with_text_scrolling_bbFydi": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -252,6 +265,7 @@
         "item_qnQ4BM",
         "item_iMcbKH"
       ],
+      "disabled": true,
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
@@ -732,6 +746,7 @@
     "scrolling_image_CczyKd",
     "rich_text_PWPftL",
     "custom_liquid_ekEKQf",
+    "custom_liquid_DpbxHD",
     "images_with_text_scrolling_bbFydi",
     "featured_product_8zHFME",
     "scrolling_image_cqcF6H",
