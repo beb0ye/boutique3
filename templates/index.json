@@ -9,6 +9,19 @@
  */
 {
   "sections": {
+    "custom_liquid_ViJh44": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"viserro-video\" aria-label=\"Vidéo démonstration Viserro\">\n  <div class=\"vv-container\">\n    <video class=\"vv-video\" autoplay muted loop playsinline>\n      <source src=\"https://cdn.shopify.com/s/files/1/0954/1792/5975/files/viserro_filtre_demo_3_simple.gif?v=1760884517\" type=\"video/mp4\">\n      Votre navigateur ne supporte pas la lecture vidéo.\n    </video>\n  </div>\n</section>\n\n<style>\n.viserro-video {\n  background: transparent;\n  padding: 0;\n  margin: 0;\n}\n\n.vv-container {\n  max-width: 1100px;\n  margin: 0 auto;\n  border-radius: 20px;\n  overflow: hidden;\n  box-shadow: 0 10px 30px rgba(0,0,0,0.12);\n  transition: transform 0.3s ease, box-shadow 0.3s ease;\n}\n\n.vv-container:hover {\n  transform: scale(1.02);\n  box-shadow: 0 18px 50px rgba(0,0,0,0.16);\n}\n\n.vv-video {\n  width: 100%;\n  height: auto;\n  display: block;\n  object-fit: cover;\n  border-radius: 20px;\n  background: #000;\n}\n\n/* Mobile */\n@media (max-width: 768px) {\n  .vv-container {\n    border-radius: 12px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -742,6 +755,7 @@
     }
   },
   "order": [
+    "custom_liquid_ViJh44",
     "slideshow",
     "scrolling_image_CczyKd",
     "rich_text_PWPftL",
