@@ -14,6 +14,7 @@
       "blocks": {
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Purifiez_5.png",
             "content_max_width": 780,
@@ -32,10 +33,31 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "video_ftbcd3": {
+          "type": "video",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "video_ftbcd3"
       ],
       "settings": {
         "full_width": true,
@@ -139,6 +161,19 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "custom_liquid_ekEKQf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{%- assign avant1 = 'avant1.jpg' | file_url -%}\n{%- assign apres1 = 'apres1.jpg' | file_url -%}\n{%- assign avant2 = 'avant2.jpg' | file_url -%}\n{%- assign apres2 = 'apres2.jpg' | file_url -%}\n{%- assign avant3 = 'avant3.jpg' | file_url -%}\n{%- assign apres3 = 'apres3.jpg' | file_url -%}\n\n<section class=\"ba-tabs\" aria-label=\"Résultats Avant / Après\">\n  <!-- Onglets -->\n  <div class=\"ba-tabs__nav\" role=\"tablist\" aria-label=\"Exemples avant/après\">\n    <button class=\"ba-tab is-active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"tab-1\" id=\"tabbtn-1\">Peau</button>\n    <button class=\"ba-tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"tab-2\" id=\"tabbtn-2\">Cheveux</button>\n    <button class=\"ba-tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"tab-3\" id=\"tabbtn-3\">Calcaire</button>\n  </div>\n\n  <!-- Contenu Onglet 1 -->\n  <div id=\"tab-1\" class=\"ba-pane is-active\" role=\"tabpanel\" aria-labelledby=\"tabbtn-1\">\n    <div class=\"ba-compare\">\n      <figure class=\"ba-card\">\n        <span class=\"ba-chip\">Avant</span>\n        <img src=\"{{ avant1 }}\" alt=\"Avant – exemple 1\" loading=\"lazy\" class=\"ba-media\">\n      </figure>\n      <figure class=\"ba-card\">\n        <span class=\"ba-chip\">Après</span>\n        <img src=\"{{ apres1 }}\" alt=\"Après – exemple 1\" loading=\"lazy\" class=\"ba-media\">\n      </figure>\n    </div>\n  </div>\n\n  <!-- Contenu Onglet 2 -->\n  <div id=\"tab-2\" class=\"ba-pane\" role=\"tabpanel\" aria-labelledby=\"tabbtn-2\" hidden>\n    <div class=\"ba-compare\">\n      <figure class=\"ba-card\">\n        <span class=\"ba-chip\">Avant</span>\n        <img src=\"{{ avant2 }}\" alt=\"Avant – exemple 2\" loading=\"lazy\" class=\"ba-media\">\n      </figure>\n      <figure class=\"ba-card\">\n        <span class=\"ba-chip\">Après</span>\n        <img src=\"{{ apres2 }}\" alt=\"Après – exemple 2\" loading=\"lazy\" class=\"ba-media\">\n      </figure>\n    </div>\n  </div>\n\n  <!-- Contenu Onglet 3 -->\n  <div id=\"tab-3\" class=\"ba-pane\" role=\"tabpanel\" aria-labelledby=\"tabbtn-3\" hidden>\n    <div class=\"ba-compare\">\n      <figure class=\"ba-card\">\n        <span class=\"ba-chip\">Avant</span>\n        <img src=\"{{ avant3 }}\" alt=\"Avant – exemple 3\" loading=\"lazy\" class=\"ba-media\">\n      </figure>\n      <figure class=\"ba-card\">\n        <span class=\"ba-chip\">Après</span>\n        <img src=\"{{ apres3 }}\" alt=\"Après – exemple 3\" loading=\"lazy\" class=\"ba-media\">\n      </figure>\n    </div>\n  </div>\n</section>\n\n<style>\n/* --- Layout & thème --- */\n.ba-tabs{ background:transparent; padding:20px 0; font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif; }\n.ba-tabs__nav{\n  display:flex; gap:8px; justify-content:center; flex-wrap:wrap;\n  margin:0 0 14px;\n}\n.ba-tab{\n  appearance:none; border:1px solid #C7D3DD; background:#FFFFFF; color:#1A1A1A;\n  padding:8px 14px; border-radius:999px; font-weight:700; font-size:14px; cursor:pointer;\n  transition:box-shadow .2s, transform .12s, background-color .2s, border-color .2s;\n}\n.ba-tab:hover{ transform:translateY(-1px); box-shadow:0 4px 10px rgba(0,0,0,.06); }\n.ba-tab.is-active{ background:#E9F1F7; border-color:#2C7CBF; color:#0F1A22; }\n\n/* --- Panneaux --- */\n.ba-pane{ width:100%; }\n.ba-pane[hidden]{ display:none !important; }\n.ba-pane.is-active{ display:block; }\n\n/* --- Comparatif --- */\n.ba-compare{\n  display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:nowrap;\n}\n.ba-card{ position:relative; flex:1 1 50%; max-width:520px; margin:0; }\n.ba-media{\n  width:100%; height:auto; display:block; object-fit:cover; aspect-ratio:3/4;\n  border-radius:14px; background:#F5F7FA; box-shadow:0 8px 22px rgba(0,0,0,.10);\n}\n.ba-chip{\n  position:absolute; top:10px; left:10px; z-index:2;\n  padding:6px 12px; border-radius:999px; font-weight:700; font-size:12px;\n  background:rgba(255,255,255,.92); color:#1A1A1A; border:1px solid rgba(199,211,221,.7);\n  box-shadow:0 2px 6px rgba(0,0,0,.06);\n}\n\n/* --- Mobile first : toujours côte à côte (mini-gap) --- */\n@media (max-width: 640px){\n  .ba-tabs{ padding:14px 0; }\n  .ba-compare{ gap:10px; padding:0 6px; }\n  .ba-media{ border-radius:10px; aspect-ratio:3/4; }\n  .ba-tab{ font-size:13px; padding:7px 12px; }\n}\n</style>\n\n<script>\n/* Tabs accessibles, sans dépendance */\n(function(){\n  var tabs = document.querySelectorAll('.ba-tab');\n  var panes = document.querySelectorAll('.ba-pane');\n  if(!tabs.length) return;\n\n  function activate(i){\n    tabs.forEach(function(t,idx){\n      var active = idx===i;\n      t.classList.toggle('is-active', active);\n      t.setAttribute('aria-selected', active ? 'true' : 'false');\n    });\n    panes.forEach(function(p,idx){\n      var show = idx===i;\n      p.classList.toggle('is-active', show);\n      if(show){ p.removeAttribute('hidden'); } else { p.setAttribute('hidden',''); }\n    });\n  }\n\n  tabs.forEach(function(btn, idx){\n    btn.addEventListener('click', function(){ activate(idx); });\n    btn.addEventListener('keydown', function(e){\n      if(e.key==='ArrowRight'){ activate((idx+1)%tabs.length); tabs[(idx+1)%tabs.length].focus(); }\n      if(e.key==='ArrowLeft'){ activate((idx-1+tabs.length)%tabs.length); tabs[(idx-1+tabs.length)%tabs.length].focus(); }\n    });\n  });\n})();\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "rich_text_PWPftL": {
@@ -564,6 +599,7 @@
     "slideshow",
     "scrolling_image_CczyKd",
     "rich_text_PWPftL",
+    "custom_liquid_ekEKQf",
     "images_with_text_scrolling_bbFydi",
     "featured_product_8zHFME",
     "before_after_image_9ykV6J",
