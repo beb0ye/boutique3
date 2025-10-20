@@ -330,6 +330,16 @@
             "page": ""
           }
         },
+        "collapsible_text_DXQywt": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Le filtre a une durée de vie de combien de temps ?",
+            "content": "<p>En moyenne <strong>2 à 3 mois</strong>, selon la qualité de ton eau et ta fréquence d’utilisation.<br/><br/>Un filtre usé devient plus foncé — c’est le signe qu’il a bien capté les impuretés.<br/><br/>👉 Il suffit alors de le remplacer (en quelques secondes).</p>",
+            "page": ""
+          }
+        },
         "collapsible_text_RxmjJX": {
           "type": "collapsible_text",
           "settings": {
@@ -359,16 +369,6 @@
             "content": "<p>Parce que votre satisfaction est notre priorité, notre <strong>équipe Viserro™ vous accompagne chaque jour de la semaine</strong>, sans exception.</p><h3>🤝 <strong>Une équipe à votre écoute</strong></h3><p>Que ce soit pour une question sur votre commande, un conseil d’installation ou une demande de suivi, nous répondons <strong>rapidement et avec attention</strong> à chaque message.</p><p>📩 Contactez-nous à tout moment — notre équipe vous répond <strong>sous 24h</strong>, même le week-end.</p><h3>💧 <strong>Notre engagement</strong></h3><ul><li>🕓 <strong>Disponibilité 7j/7</strong></li><li>💡 <strong>Réponses claires et personnalisées</strong></li><li>🤍 <strong>Accompagnement avant et après achat</strong></li><li>📦 <strong>Suivi de commande en temps réel</strong></li></ul><h3>✨ <strong>Chez Viserro™, vous n’êtes jamais seul.</strong></h3><p>Notre mission : que chaque client profite de son expérience AquaPure™ en toute sérénité.</p>",
             "page": ""
           }
-        },
-        "collapsible_text_EGembw": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Questions sur la mise en place ?",
-            "content": "<p>Pas d’inquiétude — l’installation de <strong>Viserro™ </strong> est <strong>simple, rapide et universelle</strong>.<br/>Aucun outil, aucune compétence technique : tout est pensé pour que vous puissiez profiter d’une eau purifiée <strong>en moins d’une minute</strong>.</p><h3>🔧 <strong>Comment installer mon Viserro™ ?</strong></h3><ol><li>Dévissez simplement votre ancien pommeau.</li><li>Vissez Viserro™ AquaPure™ à la place — le pas de vis est <strong>universel (G1/2)</strong>.</li><li>Laissez couler l’eau quelques secondes pour activer la filtration.<br/>Et voilà, c’est prêt.</li></ol><h3>💡 <strong>Est-ce compatible avec ma douche ?</strong></h3><p>Oui ✅<br/>Le système <strong>s’adapte à 99% des douches standards</strong>, qu’elles soient fixes ou à flexible.<br/>Aucun adaptateur n’est nécessaire dans la plupart des cas.</p><h3>♻️ <strong>Quand changer le filtre ?</strong></h3><p>Nous recommandons un remplacement <strong>tous les 2 à 3 mois</strong>, selon la qualité de votre eau et la fréquence d’utilisation.<br/>Le changement se fait en <strong>quelques secondes</strong>, sans démontage complet.</p><h3>📩 <strong>Besoin d’aide supplémentaire ?</strong></h3><p>Notre <strong>service client 7j/7</strong> est là pour vous accompagner pas à pas.</p><p>Vous pouvez nous contacter à tout moment — on vous guide jusqu’à la première douche parfaite 💧</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -381,10 +381,10 @@
         "buy_buttons_BBVp3L",
         "liquid_3WrkxY",
         "collapsible_text_R3gGQT",
+        "collapsible_text_DXQywt",
         "collapsible_text_RxmjJX",
         "collapsible_text_tRUiJB",
-        "collapsible_text_wTKrgk",
-        "collapsible_text_EGembw"
+        "collapsible_text_wTKrgk"
       ],
       "name": "Featured product",
       "settings": {
@@ -650,8 +650,8 @@
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "2. Le filtre a une durée de vie de combien de temps ?",
-            "content": "<p>En moyenne <strong>2 à 3 mois</strong>, selon la qualité de ton eau et ta fréquence d’utilisation.<br/><br/>Un filtre usé devient plus foncé — c’est le signe qu’il a bien capté les impuretés.<br/><br/>👉 Il suffit alors de le remplacer (en quelques secondes).<br/><br/></p>"
+            "title": "2. Questions sur la mise en place ?",
+            "content": "<p>Pas d’inquiétude — l’installation de <strong>Viserro™ </strong> est <strong>simple, rapide et universelle</strong>.<br/>Aucun outil, aucune compétence technique : tout est pensé pour que vous puissiez profiter d’une eau purifiée <strong>en moins d’une minute</strong>.</p><h3>🔧 <strong>Comment installer mon Viserro™ ?</strong></h3><ol><li>Dévissez simplement votre ancien pommeau.</li><li>Vissez Viserro™ AquaPure™ à la place — le pas de vis est <strong>universel (G1/2)</strong>.</li><li>Laissez couler l’eau quelques secondes pour activer la filtration.<br/>Et voilà, c’est prêt.</li></ol><h3>💡 <strong>Est-ce compatible avec ma douche ?</strong></h3><p>Oui ✅<br/>Le système <strong>s’adapte à 99% des douches standards</strong>, qu’elles soient fixes ou à flexible.<br/>Aucun adaptateur n’est nécessaire dans la plupart des cas.</p><h3>♻️ <strong>Quand changer le filtre ?</strong></h3><p>Nous recommandons un remplacement <strong>tous les 2 à 3 mois</strong>, selon la qualité de votre eau et la fréquence d’utilisation.<br/>Le changement se fait en <strong>quelques secondes</strong>, sans démontage complet.</p><h3>📩 <strong>Besoin d’aide supplémentaire ?</strong></h3><p>Notre <strong>service client 7j/7</strong> est là pour vous accompagner pas à pas.</p><p>Vous pouvez nous contacter à tout moment — on vous guide jusqu’à la première douche parfaite 💧</p>"
           }
         },
         "166442457738b23caf-2": {
