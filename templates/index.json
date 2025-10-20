@@ -50,63 +50,95 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "logo_list_XbU9TD": {
-      "type": "logo-list",
+    "scrolling_image_CczyKd": {
+      "type": "scrolling-image",
       "blocks": {
-        "logo_TdHLRg": {
-          "type": "logo",
+        "image_GGARC4": {
+          "type": "image",
           "settings": {
-            "logo": "shopify://shop_images/download_d9f77a72-150c-4bdc-8764-8be9f801fb0d.png",
-            "logo_width": 120,
-            "link": ""
+            "image": "shopify://shop_images/download_d9f77a72-150c-4bdc-8764-8be9f801fb0d.png",
+            "url": ""
           }
         },
-        "logo_ktPqra": {
-          "type": "logo",
+        "image_aAMYzC": {
+          "type": "image",
           "settings": {
-            "logo": "shopify://shop_images/images.png",
-            "logo_width": 120,
-            "link": ""
+            "image": "shopify://shop_images/images.png",
+            "url": ""
           }
         },
-        "logo_aQpG4d": {
-          "type": "logo",
+        "image_jgwBaE": {
+          "type": "image",
           "settings": {
-            "logo": "shopify://shop_images/download_ad2f83e1-9102-4564-b14c-f0bef7f765a5.png",
-            "logo_width": 120,
-            "link": ""
+            "image": "shopify://shop_images/download_ad2f83e1-9102-4564-b14c-f0bef7f765a5.png",
+            "url": ""
           }
         },
-        "logo_TQHmtW": {
-          "type": "logo",
+        "image_Ae6R4c": {
+          "type": "image",
           "settings": {
-            "logo": "shopify://shop_images/Vogue-logo.png",
-            "logo_width": 120,
-            "link": ""
+            "image": "shopify://shop_images/download.png",
+            "url": ""
           }
         }
       },
       "block_order": [
-        "logo_TdHLRg",
-        "logo_ktPqra",
-        "logo_aQpG4d",
-        "logo_TQHmtW"
+        "image_GGARC4",
+        "image_aAMYzC",
+        "image_jgwBaE",
+        "image_Ae6R4c"
       ],
-      "name": "Logo list",
+      "name": "Scrolling Images",
       "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Ils parlent de nous :",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "#f0f0f0",
+        "heading": "<h2>ils parlent de nous :</h2>",
+        "heading_custom": true,
+        "heading_font": "barlow_n7",
+        "heading_size": 36,
+        "heading_height": 140,
+        "heading_align": "center",
+        "slider_speed": 13,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 50,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "image_height_desktop": 100,
+        "image_height_mobile": 50,
+        "image_radius": 16,
+        "use_content": false,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#f0f0f0",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#f0f0f0",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#ffffff",
-        "logo_item_border": ""
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 4,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "rich_text_PWPftL": {
@@ -413,8 +445,8 @@
             "max-characters": 180,
             "autoplay": false,
             "autoplay-delay": 5,
-            "main-color": "#AE8868",
-            "stars-color": "#FF8D00",
+            "main-color": "#ae8868",
+            "stars-color": "#ff8d00",
             "show-review-text": true,
             "text-color": "",
             "reviewer-name-color": "",
@@ -530,7 +562,7 @@
   },
   "order": [
     "slideshow",
-    "logo_list_XbU9TD",
+    "scrolling_image_CczyKd",
     "rich_text_PWPftL",
     "before_after_image_9ykV6J",
     "images_with_text_scrolling_bbFydi",
