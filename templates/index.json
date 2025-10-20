@@ -113,8 +113,8 @@
       ],
       "name": "Scrolling Images",
       "settings": {
-        "heading": "<h2>ils parlent de nous :</h2>",
-        "heading_custom": true,
+        "heading": "<h3><strong>ils parlent de nous :</strong></h3>",
+        "heading_custom": false,
         "heading_font": "barlow_n7",
         "heading_size": 36,
         "heading_height": 140,
