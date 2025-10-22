@@ -39,7 +39,7 @@
     "heading_apparition": "none",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
-    "cart_icon": "shopping_cart",
+    "cart_icon": "shopping_basket",
     "cart_empty_button_link": "shopify://products/viserro™-le-filtre-de-douche-purifiant-qui-revele-la-vraie-purete-de-votre-eau",
     "cart_show_free_shipping_threshold": false,
     "checkout_accent_color": "#f0c417",
