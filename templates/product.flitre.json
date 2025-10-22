@@ -37,7 +37,7 @@
         "liquid_6DfV3Q": {
           "type": "liquid",
           "settings": {
-            "liquid": "<section class=\"vis-bullets\" aria-label=\"Bénéfices Viserro\">\n  <ul class=\"vis-bullets__list\">\n    <li>\n      <span class=\"vis-ico\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\">\n          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#111\"/>\n          <path d=\"M7 12.5l3.2 3.1L17 9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </span>\n      Une peau plus belle et des cheveux plus sains\n    </li>\n\n    <li>\n      <span class=\"vis-ico\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\">\n          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#111\"/>\n          <path d=\"M7 12.5l3.2 3.1L17 9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </span>\n      Augmente la pression de l’eau jusqu’à 2x\n    </li>\n\n    <li>\n      <span class=\"vis-ico\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\">\n          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#111\"/>\n          <path d=\"M7 12.5l3.2 3.1L17 9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </span>\n      Économisez jusqu’à 25&nbsp;% sur votre facture d’eau\n    </li>\n\n    <li>\n      <span class=\"vis-ico\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\">\n          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#111\"/>\n          <path d=\"M7 12.5l3.2 3.1L17 9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </span>\n      Adieu les dépôts calcaires\n    </li>\n  </ul>\n</section>\n\n<style>\n.vis-bullets{\n  background: transparent;\n  margin: 0;\n  padding: 0;\n  font-family: -apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif;\n  color:#111;\n}\n.vis-bullets__list{\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: grid;\n  gap: 8px;\n}\n.vis-ico{\n  display:inline-flex;\n  align-items:center;\n  justify-content:center;\n  margin-right:8px;\n}\n.vis-bullets li{\n  display:flex;\n  align-items:center;\n}\n</style>"
+            "liquid": "<ul class=\"vs-bullets\" role=\"list\">\n  <li>\n    <span class=\"vs-ico\" aria-hidden=\"true\">\n      <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/>\n        <path d=\"M7 12.5l3 3L17 9\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n    </span>\n    Filtrer le calcaire, les pesticides et autres impuretés\n  </li>\n  <li>\n    <span class=\"vs-ico\" aria-hidden=\"true\">\n      <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/>\n        <path d=\"M7 12.5l3 3L17 9\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n    </span>\n    Facile à remplacer\n  </li>\n  <li>\n    <span class=\"vs-ico\" aria-hidden=\"true\">\n      <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/>\n        <path d=\"M7 12.5l3 3L17 9\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n    </span>\n    Respectueux de l’environnement\n  </li>\n</ul>\n\n<style>\n.vs-bullets{\n  margin:0; padding:0;\n  list-style:none;\n  display:grid; gap:10px;\n  color:#1A1A1A; /* texte principal */\n  font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif;\n}\n.vs-bullets li{\n  display:flex; align-items:center; gap:10px;\n  line-height:1.45;\n}\n.vs-bullets .vs-ico{\n  display:inline-flex; width:18px; height:18px; flex:0 0 18px;\n}\n</style>"
           }
         },
         "kaching_bundles_app_block_iFNPnq": {
@@ -68,6 +68,46 @@
           "settings": {
             "liquid": "<section class=\"vis-reviews\" aria-label=\"Avis clients Viserro\">\n  <h3 class=\"vis-reviews__title\">Ils ont testé Viserro™… et ils ne peuvent plus s’en passer 💧</h3>\n\n  <div class=\"vis-reviews__row\" role=\"list\">\n    <!-- Vidéo 1 -->\n    <figure class=\"vis-reviews__card\" role=\"listitem\">\n      <video class=\"vis-reviews__video\" autoplay muted loop playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/496937543be8408fb217543f9e71c22e.mp4\" type=\"video/mp4\">\n      </video>\n    </figure>\n\n    <!-- Vidéo 2 -->\n    <figure class=\"vis-reviews__card\" role=\"listitem\">\n      <video class=\"vis-reviews__video\" autoplay muted loop playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/3a1e04d173ed4b47b82f54926d50c08a.mp4\" type=\"video/mp4\">\n      </video>\n    </figure>\n\n    <!-- Vidéo 3 -->\n    <figure class=\"vis-reviews__card\" role=\"listitem\">\n      <video class=\"vis-reviews__video\" autoplay muted loop playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/bc8e8af1d9e3450c8476eb36e20766a1.mp4\" type=\"video/mp4\">\n      </video>\n    </figure>\n  </div>\n</section>\n\n<style>\n.vis-reviews {\n  background: transparent;\n  margin: 0;\n  padding: 20px 0;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Inter, Roboto, Arial, sans-serif;\n  color: #111;\n}\n\n.vis-reviews__title {\n  font-weight: 800;\n  font-size: clamp(20px, 2vw, 24px);\n  color: #111;\n  margin-bottom: 18px;\n}\n\n/* --- Ligne des vidéos --- */\n.vis-reviews__row {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n  flex-wrap: nowrap;\n  overflow: hidden;\n  max-width: 100%;\n  padding: 0 10px;\n}\n\n/* --- Carte vidéo --- */\n.vis-reviews__card {\n  flex: 0 0 calc(33.333% - 10px);\n  aspect-ratio: 9 / 16;\n  border-radius: 14px;\n  overflow: hidden;\n  background: #000;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  transition: transform 0.25s ease;\n}\n\n.vis-reviews__card:hover {\n  transform: scale(1.03);\n}\n\n/* --- Vidéo --- */\n.vis-reviews__video {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  display: block;\n  border-radius: 14px;\n}\n\n/* --- Mobile --- */\n@media (max-width: 768px) {\n  .vis-reviews__row {\n    flex-wrap: nowrap;\n    justify-content: space-between;\n    gap: 6px;\n  }\n  .vis-reviews__card {\n    flex: 1 1 30%;\n    aspect-ratio: 9 / 16;\n  }\n  .vis-reviews__title {\n    font-size: 18px;\n  }\n}\n</style>"
           }
+        },
+        "collapsible_text_mg7Vqi": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Caractéristiques du filtre Viserro™",
+            "content": "<ul><li><strong>Filtration triple action</strong> : billes minérales, charbon actif et membrane FOF, pour une eau plus douce et plus saine.<br/></li><li><strong>Élimine efficacement</strong> le calcaire, le chlore, les métaux lourds et les pesticides présents dans l’eau.<br/></li><li><strong>Améliore la douceur de l’eau</strong>, apaise les peaux sensibles et protège les cheveux des agressions.<br/></li><li><strong>Facile à remplacer</strong> : changement en moins de 10 secondes, sans outil.<br/></li><li><strong>Respectueux de l’environnement</strong> grâce à des matériaux recyclables et durables.<br/></li><li><strong>Durée moyenne</strong> : environ 3 mois par filtre (selon la qualité de votre eau et la fréquence d’utilisation).<br/></li></ul><h3>🧠 Pourquoi c’est important</h3><p>Les filtres garantissent la performance et la pureté de votre pommeau Viserro™.<br/><br/>Changer régulièrement votre filtre, c’est assurer une <strong>eau saine, une peau apaisée</strong> et une <strong>durabilité optimale</strong> de votre pommeau.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_6TxDLY": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Le filtre a une durée de vie de combien de temps ?",
+            "content": "<p>En moyenne <strong>2 à 3 mois</strong>, selon la qualité de ton eau et ta fréquence d’utilisation.<br/><br/>Un filtre usé devient plus foncé — c’est le signe qu’il a bien capté les impuretés.<br/><br/>👉 Il suffit alors de le remplacer (en quelques secondes).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_GpnPQA": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Livraison gratuite et rapide",
+            "content": "<p>Parce que votre confort commence dès la commande, <strong>la livraison est entièrement offerte</strong> sur tous les produits <strong>Viserro™</strong>.</p><h3>🌍 <strong>Expédition rapide depuis nos entrepôts européens</strong></h3><p>Vos commandes sont traitées sous <strong>24 à 48h</strong>, puis expédiées avec suivi en ligne.</p><p>Recevez votre pommeau Viserro™ directement chez vous en <strong>5 à 8 jours ouvrés</strong>.</p><h3>💧 <strong>Livraison premium, sans frais cachés</strong></h3><p>Aucune surprise au moment du paiement — le prix affiché est le <strong>prix final</strong>.<br/>Profitez d’une <strong>expérience fluide et transparente</strong>, du clic à la douche.</p><h3>✨ <strong>En résumé</strong></h3><ul><li>✅ <strong>Livraison 100% gratuite</strong>, sans minimum d’achat</li><li>⚡ <strong>Traitement rapide</strong> sous 48h</li><li>📦 <strong>Suivi complet</strong> de votre commande</li><li>💬 <strong>Service client réactif</strong> pour toute question</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_TybMXX": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Service client disponible 7j/7",
+            "content": "<p>Parce que votre satisfaction est notre priorité, notre <strong>équipe Viserro™ vous accompagne chaque jour de la semaine</strong>, sans exception.</p><h3>🤝 <strong>Une équipe à votre écoute</strong></h3><p>Que ce soit pour une question sur votre commande, un conseil d’installation ou une demande de suivi, nous répondons <strong>rapidement et avec attention</strong> à chaque message.</p><p>📩 Contactez-nous à tout moment — notre équipe vous répond <strong>sous 24h</strong>, même le week-end.</p><h3>💧 <strong>Notre engagement</strong></h3><ul><li>🕓 <strong>Disponibilité 7j/7</strong></li><li>💡 <strong>Réponses claires et personnalisées</strong></li><li>🤍 <strong>Accompagnement avant et après achat</strong></li><li>📦 <strong>Suivi de commande en temps réel</strong></li></ul><h3>✨ <strong>Chez Viserro™, vous n’êtes jamais seul.</strong></h3><p>Notre mission : que chaque client profite de son expérience AquaPure™ en toute sérénité.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -79,7 +119,11 @@
         "kaching_bundles_app_block_iFNPnq",
         "buy_buttons",
         "liquid_VwTtAg",
-        "liquid_7bRfkH"
+        "liquid_7bRfkH",
+        "collapsible_text_mg7Vqi",
+        "collapsible_text_6TxDLY",
+        "collapsible_text_GpnPQA",
+        "collapsible_text_TybMXX"
       ],
       "settings": {
         "full_width": true,
