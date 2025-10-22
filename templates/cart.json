@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "featured_collection_NwNXBA": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "frontpage",
+        "products": [
+          "viserro™-le-filtre-de-douche-purifiant-qui-revele-la-vraie-purete-de-votre-eau",
+          "filtre-viserro"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Nos produits",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "main": {
       "type": "main-cart",
       "blocks": {
@@ -37,39 +66,10 @@
         "show_shipping_estimator": true,
         "show_payment_icons": true
       }
-    },
-    "featured_collection_NwNXBA": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "frontpage",
-        "products": [
-          "viserro™-le-filtre-de-douche-purifiant-qui-revele-la-vraie-purete-de-votre-eau",
-          "filtre-viserro"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Nos produits",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
-    "main",
-    "featured_collection_NwNXBA"
+    "featured_collection_NwNXBA",
+    "main"
   ]
 }
