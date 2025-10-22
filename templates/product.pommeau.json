@@ -153,9 +153,329 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "custom_liquid_NxKFxX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"tl-wrap\" aria-label=\"Pourquoi / Conséquence / Solution\">\n  <!-- MÉDIA HAUT -->\n  <div class=\"tl-hero\">\n    <video class=\"tl-media\" autoplay muted loop playsinline preload=\"metadata\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/92d85a9ded43400588bc83271a4f5a1f.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <!-- BLOC 1 -->\n  <div class=\"tl-row\">\n    <div class=\"tl-rail\">\n      <span class=\"tl-line\"></span>\n      <span class=\"tl-badge\">Pourquoi</span>\n    </div>\n    <article class=\"tl-card\">\n      <h3 class=\"tl-title\">Pourquoi devriez-vous filtrer l’eau de votre bain&nbsp;?</h3>\n      <p class=\"tl-text\">\n        L’eau peut contenir du calcaire, des pesticides, des métaux lourds, des PFAS et d’autres substances indésirables.\n        Elles dessèchent la peau, irritent le cuir chevelu et ternissent les cheveux.\n      </p>\n    </article>\n  </div>\n\n  <!-- BLOC 2 -->\n  <div class=\"tl-row\">\n    <div class=\"tl-rail\">\n      <span class=\"tl-line\"></span>\n      <span class=\"tl-badge\">Conséquence</span>\n    </div>\n    <article class=\"tl-card\">\n      <h3 class=\"tl-title\">La qualité de l’eau affecte la peau et les cheveux</h3>\n      <p class=\"tl-text\">\n        Lorsque l’eau est chargée d’impuretés, l’équilibre naturel de la peau est perturbé et les huiles protectrices des cheveux\n        sont détruites. Résultat&nbsp;: sécheresse, irritations et cheveux abîmés.\n      </p>\n    </article>\n  </div>\n\n  <!-- BLOC 3 -->\n  <div class=\"tl-row\">\n    <div class=\"tl-rail\">\n      <span class=\"tl-line\"></span>\n      <span class=\"tl-badge\">Solution</span>\n    </div>\n    <article class=\"tl-card\">\n      <h3 class=\"tl-title\">La filtration vous protège des substances nocives</h3>\n      <p class=\"tl-text\">\n        Notre filtre au charbon actif et média FOF réduit efficacement les polluants (PFAS, pesticides, métaux lourds).\n        Résultat&nbsp;: une eau plus propre et une douche plus saine.\n      </p>\n    </article>\n  </div>\n</section>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');\n\n.tl-wrap{\n  background:#F4EFEA; color:#1A1A1A; margin:0; padding:0;\n  font-family:'Barlow', -apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif;\n}\n\n/* --- MÉDIA HAUT --- */\n.tl-hero{\n  max-width:1200px; margin:0 auto 28px; padding:0 20px;\n}\n.tl-media{\n  width:100%; max-height:600px; display:block;\n  object-fit:cover; border-radius:18px; background:#F8F5F2;\n}\n\n/* --- STRUCTURE --- */\n.tl-row{\n  max-width:1200px;\n  margin:0 auto;\n  padding:0 20px 36px;\n  display:grid;\n  grid-template-columns:120px 1fr;\n  gap:24px;\n  align-items:start;\n  position:relative;\n}\n\n/* Ligne et badges */\n.tl-rail{\n  position:relative;\n  min-height:140px;\n}\n.tl-line{\n  position:absolute;\n  left:50%;\n  top:0;\n  bottom:0;\n  transform:translateX(-50%);\n  border-left:2px dashed rgba(0,0,0,.25);\n}\n.tl-badge{\n  position:absolute;\n  left:50%;\n  top:50%;\n  transform:translate(-50%,-50%);\n  display:inline-flex;\n  align-items:center;\n  justify-content:center;\n  min-width:100px;\n  min-height:28px;\n  padding:4px 10px;\n  background:#fff;\n  color:#1A1A1A;\n  border:1px solid rgba(0,0,0,.08);\n  border-radius:999px;\n  box-shadow:0 3px 8px rgba(0,0,0,.06);\n  font-weight:700;\n  font-size:.8rem;\n  text-align:center;\n}\n\n/* Contenu */\n.tl-card{\n  background:rgba(255,255,255,.75);\n  border:1px solid rgba(0,0,0,.06);\n  border-radius:18px;\n  padding:20px;\n  box-shadow:0 8px 24px rgba(0,0,0,.06);\n}\n.tl-title{\n  margin:0 0 10px;\n  font-weight:700;\n  letter-spacing:-.2px;\n  font-size:clamp(1.2rem, 2.1vw, 1.5rem);\n  color:#1A1A1A;\n}\n.tl-text{\n  margin:0;\n  color:#333;\n  line-height:1.6;\n  font-size:.96rem;\n}\n\n/* --- MOBILE --- */\n@media (max-width:768px){\n  .tl-row{\n    grid-template-columns:70px 1fr;\n    gap:14px;\n    padding:0 12px 26px;\n  }\n  .tl-badge{\n    min-width:80px;\n    min-height:24px;\n    font-size:.7rem;\n    padding:2px 8px;\n  }\n  .tl-line{\n    border-left:1.5px dashed rgba(0,0,0,.25);\n  }\n  .tl-card{\n    padding:16px;\n    border-radius:14px;\n  }\n  .tl-title{\n    font-size:1.1rem;\n  }\n  .tl-text{\n    font-size:.9rem;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_image_UYWWy8": {
+      "type": "scrolling-image",
+      "blocks": {
+        "image_Xjhggx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6666.jpg",
+            "url": ""
+          }
+        },
+        "image_69r7rJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7704.webp",
+            "url": ""
+          }
+        },
+        "image_7hWM8m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5109.jpg",
+            "url": ""
+          }
+        },
+        "image_GAfxtq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_80111.jpg",
+            "url": ""
+          }
+        },
+        "image_etmGwb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BC0F5A86-1.jpg",
+            "url": ""
+          }
+        },
+        "image_LFWEhD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7713.webp",
+            "url": ""
+          }
+        },
+        "image_P7yJEE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6124.jpg",
+            "url": ""
+          }
+        },
+        "image_9Yft83": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6905.webp",
+            "url": ""
+          }
+        },
+        "image_wggKqM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7703.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Xjhggx",
+        "image_69r7rJ",
+        "image_7hWM8m",
+        "image_GAfxtq",
+        "image_etmGwb",
+        "image_LFWEhD",
+        "image_P7yJEE",
+        "image_9Yft83",
+        "image_wggKqM"
+      ],
+      "name": "Scrolling Images",
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "slider_speed": 20,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 50,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 300,
+        "image_width_mobile": 120,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": true,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "<p>Dans plus de 15 000 foyers européen<br/><br/></p>",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 18,
+        "text_height": 70,
+        "heading_color": "#000000",
+        "content_bg": "#f0f0f0",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "before_after_image_wL8JXG": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Ce que ton œil voit, ton corps le ressent.",
+        "content": "<p>Le filtre <strong>Viserro™</strong> capture ce que l’eau du robinet laisse passer. Une eau plus pure, une peau plus douce.</p>",
+        "before_image": "shopify://shop_images/PURIFIEZ_2.png",
+        "after_image": "shopify://shop_images/PURIFIEZ_3.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 49,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#1a1a1a",
+        "after_text_color": "#1a1a1a",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "custom_liquid_pwEBLx": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"vs-compare\" aria-label=\"Comparaison Viserro vs standard\">\n  <div class=\"vsc-wrap\">\n    <h2 class=\"vsc-title\">Pourquoi choisir <span>Viserro™</span> ?</h2>\n\n    <div class=\"vsc-grid\" role=\"table\">\n      <!-- En-têtes -->\n      <div class=\"vsc-cell vsc-head vsc-feat\" role=\"columnheader\" aria-label=\"Caractéristiques\"></div>\n      <div class=\"vsc-cell vsc-head\" role=\"columnheader\">Viserro™</div>\n      <div class=\"vsc-cell vsc-head\" role=\"columnheader\">Standard</div>\n\n      {%- assign features = \"\n        Filtre et élimine les impuretés|\n        Protège votre peau et vos cheveux|\n        Augmente la pression de l’eau jusqu’à 2x|\n        Consommation d’eau respectueuse de l’environnement|\n        Installation universelle et facile\n      \" | split: \"|\" -%}\n\n      {%- for f in features -%}\n        <!-- Libellé -->\n        <div class=\"vsc-cell vsc-feat\" role=\"rowheader\">\n          <div class=\"vsc-feat__txt\">{{ f | strip }}</div>\n        </div>\n\n        <!-- Viserro : ✓ -->\n        <div class=\"vsc-cell vsc-ok\" role=\"cell\" aria-label=\"Présent\">\n          <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\">\n            <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"></circle>\n            <path d=\"M7 12.5l3 3L17 9\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n          <span class=\"sr-only\">Oui</span>\n        </div>\n\n        <!-- Standard : ✗ -->\n        <div class=\"vsc-cell vsc-no\" role=\"cell\" aria-label=\"Absent\">\n          <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\">\n            <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"></circle>\n            <path d=\"M8 8l8 8M16 8l-8 8\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2.1\" stroke-linecap=\"round\"/>\n          </svg>\n          <span class=\"sr-only\">Non</span>\n        </div>\n\n        <!-- séparateurs -->\n        <div class=\"vsc-sep\" aria-hidden=\"true\"></div>\n        <div class=\"vsc-sep\" aria-hidden=\"true\"></div>\n        <div class=\"vsc-sep\" aria-hidden=\"true\"></div>\n      {%- endfor -%}\n    </div>\n  </div>\n</section>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');\n\n.vs-compare{background:#F4EFEA;color:#1A1A1A;margin:0;padding:0}\n.vsc-wrap{max-width:1000px;margin:0 auto;padding:0 12px 16px}\n.vsc-title{\n  font-family:'Barlow',-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",\"SF Pro Display\",Inter,Roboto,Arial,sans-serif;\n  font-weight:700;margin:0 0 10px;font-size:clamp(1.1rem,2vw,1.4rem);letter-spacing:-.2px\n}\n.vsc-title span{color:#B68D40}\n\n/* --- Grille compacte qui ne dépasse jamais --- */\n.vsc-grid{\n  width:100%;\n  display:grid;\n  grid-template-columns: minmax(180px,1fr) 120px 120px; /* s’adapte à la largeur */\n  align-items:stretch;\n}\n.vsc-cell{padding:10px 12px;background:#fff}\n.vsc-head{\n  background:#EEE9E1;text-align:center;font-weight:700;border-radius:10px 10px 0 0\n}\n.vsc-feat{background:transparent;padding:0}\n.vsc-feat__txt{\n  padding:12px 0;border-bottom:1px solid rgba(0,0,0,.12);line-height:1.45;word-break:break-word\n}\n\n/* colonnes valeurs */\n.vsc-ok,.vsc-no{display:flex;align-items:center;justify-content:center;background:#FBFAF8}\n.vsc-ok{background:#EEE9E1}\n\n/* séparateurs sous les deux colonnes de droite uniquement */\n.vsc-sep{height:10px;border-bottom:1px solid rgba(0,0,0,.55);background:transparent}\n.vsc-sep:nth-of-type(3n+1){border-bottom-color:transparent}\n\n/* coins bas arrondis */\n.vsc-grid > :nth-last-child(3),\n.vsc-grid > :nth-last-child(2),\n.vsc-grid > :last-child{border-radius:0 0 10px 10px}\n\n/* accessibilité */\n.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}\n\n/* --- Responsive : jamais d’overflow, pas d’horizontal scroll --- */\n@media (max-width: 768px){\n  .vsc-wrap{padding:0 10px 14px}\n  .vsc-grid{grid-template-columns: minmax(150px,1fr) 96px 96px}\n  .vsc-cell{padding:8px 10px}\n  .vsc-feat__txt{font-size:.95rem}\n  .vsc-title{font-size:1.2rem}\n}\n@media (max-width: 480px){\n  .vsc-grid{grid-template-columns: minmax(130px,1fr) 84px 84px}\n  .vsc-feat__txt{font-size:.92rem}\n  .vsc-cell svg{width:16px;height:16px}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_J78qGt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U4Cj4E": {
+          "type": "heading",
+          "settings": {
+            "text": "Avis de nos clients",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_U4Cj4E"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "apps_PmhRVc": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_carousel_Qa64jf": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "corner-radius": 40,
+            "items-per-view": 2,
+            "items-per-view-mobile": 3,
+            "max-characters": 180,
+            "autoplay": false,
+            "autoplay-delay": 5,
+            "main-color": "#ae8868",
+            "stars-color": "#ff8d00",
+            "show-review-text": true,
+            "text-color": "",
+            "reviewer-name-color": "",
+            "verified-badge-color": "",
+            "quote-marks-icon": "style-1",
+            "quote-marks-icon-color": "",
+            "review-background-color": "",
+            "product-ids": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_carousel_Qa64jf"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_Rm3WU7": {
+      "type": "faq",
+      "blocks": {
+        "item_C47Cmy": {
+          "type": "item",
+          "settings": {
+            "title": "1. Est-ce que le pommeau s’adapte à toutes les douches ?",
+            "content": "<p><strong>Oui, absolument.</strong><br/><br/>Notre pommeau est <strong>universel</strong> et se visse sur <strong>tous les flexibles standards</strong>, sans outils ni installation complexe. Tu le remplaces en moins d’une minute.<br/><br/></p>"
+          }
+        },
+        "item_QXCUne": {
+          "type": "item",
+          "settings": {
+            "title": "2. Questions sur la mise en place ?",
+            "content": "<p>Pas d’inquiétude — l’installation de <strong>Viserro™ </strong> est <strong>simple, rapide et universelle</strong>.<br/>Aucun outil, aucune compétence technique : tout est pensé pour que vous puissiez profiter d’une eau purifiée <strong>en moins d’une minute</strong>.</p><h3>🔧 <strong>Comment installer mon Viserro™ ?</strong></h3><ol><li>Dévissez simplement votre ancien pommeau.</li><li>Vissez Viserro™ AquaPure™ à la place — le pas de vis est <strong>universel (G1/2)</strong>.</li><li>Laissez couler l’eau quelques secondes pour activer la filtration.<br/>Et voilà, c’est prêt.</li></ol><h3>💡 <strong>Est-ce compatible avec ma douche ?</strong></h3><p>Oui ✅<br/>Le système <strong>s’adapte à 99% des douches standards</strong>, qu’elles soient fixes ou à flexible.<br/>Aucun adaptateur n’est nécessaire dans la plupart des cas.</p><h3>♻️ <strong>Quand changer le filtre ?</strong></h3><p>Nous recommandons un remplacement <strong>tous les 2 à 3 mois</strong>, selon la qualité de votre eau et la fréquence d’utilisation.<br/>Le changement se fait en <strong>quelques secondes</strong>, sans démontage complet.</p><h3>📩 <strong>Besoin d’aide supplémentaire ?</strong></h3><p>Notre <strong>service client 7j/7</strong> est là pour vous accompagner pas à pas.</p><p>Vous pouvez nous contacter à tout moment — on vous guide jusqu’à la première douche parfaite 💧</p>"
+          }
+        },
+        "item_KfadeV": {
+          "type": "item",
+          "settings": {
+            "title": "3. Quels bienfaits vais-je ressentir ?",
+            "content": "<p>Dès les premières douches, tu remarqueras une <strong>eau plus douce</strong>, une <strong>peau moins sèche</strong> et des <strong>cheveux plus brillants</strong>.<br/><br/>Le filtre élimine le <strong>chlore</strong>, le <strong>calcaire</strong> et les <strong>métaux lourds</strong> responsables des irritations cutanées et des cheveux ternes.<br/><br/></p>"
+          }
+        },
+        "item_qK8BXf": {
+          "type": "item",
+          "settings": {
+            "title": "4. Le débit d’eau est-il réduit ?",
+            "content": "<p>Au contraire 💨<br/><br/>Grâce à ses <strong>micro-perforations à haute pression</strong>, le pommeau <strong>économise jusqu’à 30 % d’eau</strong> tout en offrant un <strong>jet plus puissant et agréable</strong>.<br/><br/></p>"
+          }
+        },
+        "item_WDKCFL": {
+          "type": "item",
+          "settings": {
+            "title": "5. Puis-je le tester sans risque ?",
+            "content": "<p>Bien sûr.<br/><br/>Tu bénéficies de notre <strong>garantie satisfait ou remboursé 30 jours</strong>.<br/><br/>Essaye-le chez toi, et si tu n’es pas conquis(e), on te rembourse <strong>sans discussion</strong>.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_C47Cmy",
+        "item_QXCUne",
+        "item_KfadeV",
+        "item_qK8BXf",
+        "item_WDKCFL"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_NxKFxX",
+    "scrolling_image_UYWWy8",
+    "before_after_image_wL8JXG",
+    "custom_liquid_pwEBLx",
+    "rich_text_J78qGt",
+    "apps_PmhRVc",
+    "faq_Rm3WU7"
   ]
 }
